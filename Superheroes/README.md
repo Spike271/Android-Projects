@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="GitVisuals/app_logo.webp" alt="SuperHeroes App" width="100%">
+<img src="GitVisuals/app_logo.webp" alt="SuperHeroes App" width="30%">
 
 # Superheroes App
 
