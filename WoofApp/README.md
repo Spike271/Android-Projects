@@ -32,9 +32,9 @@ The app features smooth **spring animations** when interacting with list items, 
     <th align="center">Dark Mode</th>
   </tr>
   <tr>
-    <td align="center"><img src="GitVisuals/app_animation.gif" alt="App animation"></td>
-    <td align="center"><img src="GitVisuals/app_light_mode.png" alt="Light mode"></td>
-    <td align="center"><img src="GitVisuals/app_dark_mode.png" alt="Dark mode"></td>
+    <td align="center"><img src="GitVisuals/app_animation.gif" width="220" alt="App animation"></td>
+    <td align="center"><img src="GitVisuals/app_light_mode.png" width="220" alt="Light mode"></td>
+    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="220" alt="Dark mode"></td>
   </tr>
 </table>
 
