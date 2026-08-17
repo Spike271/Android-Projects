@@ -61,7 +61,7 @@ fun TopicGrid(itemsList: List<Topic>, modifier: Modifier = Modifier) {
         contentPadding = PaddingValues(8.dp),
         modifier = modifier
     ) {
-        items(itemsList, key = {it.stringResourceId}) { item ->
+        items(itemsList, key = { it.stringResourceId }) { item ->
             TopicCard(item)
         }
     }
