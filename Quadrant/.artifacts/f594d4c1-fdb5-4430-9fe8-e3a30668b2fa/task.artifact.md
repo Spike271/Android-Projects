@@ -1,0 +1,3 @@
+- [x] Update README.md with Quadrant app information
+- [x] Verify README.md content accuracy
+- [x] Create walkthrough artifact

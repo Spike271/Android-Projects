@@ -20,7 +20,10 @@ This project demonstrates the use of Jetpack Compose for UI development, includi
 ## Screenshots
 
 
-<td align="center"><img src="GitVisuals/App_screenshot.png" width="320" alt="Light mode"></td>
+<td align="center"><img src="GitVisuals/App_screenshot_01.png" width="250" alt="Light mode"></td>
+<td align="center"><img src="GitVisuals/App_screenshot_02.png" width="250" alt="Light mode"></td>
+<td align="center"><img src="GitVisuals/App_screenshot_03.png" width="250" alt="Light mode"></td>
+<td align="center"><img src="GitVisuals/App_screenshot_04.png" width="250" alt="Light mode"></td>
 
 ## Tech Stack
 

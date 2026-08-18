@@ -17,7 +17,7 @@ This project serves as a practical implementation of Jetpack Compose `Box`, `Ima
 - **Resource Management**: Demonstrates using string and drawable resources in a Compose-based project.
 - **Material 3 UI**: Implemented using M3 `Scaffold` and standardized typography and colors.
 
-## Screenshots
+## Screenshot
 
 <td align="center"><img src="GitVisuals/App_screenshot.png" width="320" alt="Light mode"></td>
 
