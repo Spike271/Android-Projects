@@ -1,15 +1,17 @@
-# Dice Roller
+<div align="center">
 
-Dice Roller is a simple Android application built with Jetpack Compose and Material Design 3. It allows users to roll a virtual dice and see the result displayed as an image, demonstrating basic interactivity and state management in Compose.
+  # Dice Roller
 
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
+  ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+  ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+  ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+  ![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
+
+</div>
 
 ## About the Project
 
-This project is a beginner-friendly implementation of a dice rolling app. It showcases how to use `remember` and `mutableStateOf` to handle UI state, how to respond to button clicks, and how to conditionally display resources based on state.
+Dice Roller is a simple Android application built with Jetpack Compose and Material Design 3. It allows users to roll a virtual dice and see the result displayed as an image, demonstrating basic interactivity and state management in Compose.
 
 ## Key Features
 

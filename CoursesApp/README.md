@@ -1,15 +1,19 @@
-# Courses App
+<div align="center">
 
-Courses App is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to implement a grid-based UI for displaying various topics or courses, following modern Android development practices.
+<img src="GitVisuals/app_logo.png" alt="Courses App" width="20%">
+
+# Courses App
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
 
+</div>
+
 ## About the Project
 
-This project serves as a practical implementation of Jetpack Compose `LazyVerticalGrid` and Material Design 3 `Card` components. It displays a list of topics with associated images and counts in a responsive grid layout.
+Courses App is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to implement a grid-based UI for displaying various topics or courses, following modern Android development practices.
 
 ## Key Features
 
@@ -24,8 +28,8 @@ This project serves as a practical implementation of Jetpack Compose `LazyVertic
     <th align="center">Dark Mode</th>
   </tr>
   <tr>
-    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light mode"></td>
-    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark mode"></td>
+    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light Mode Screenshot"></td>
+    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark Mode Screenshot"></td>
   </tr>
 </table>
 
@@ -44,7 +48,7 @@ app/src/main/java/com/example/coursesapp/
 ├── data/           # Data provider (DataSource.kt)
 ├── model/          # Data models (Topic.kt)
 ├── ui/theme/       # Material 3 Theme configuration
-└── MainActivity.kt 
+└── MainActivity.kt
 ```
 
 ## License

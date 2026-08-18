@@ -23,7 +23,9 @@ This is a simple **Tip Calculator** app that calculates the tip amount based on 
 
 ## Screenshots
 
-<img src="GitVisuals/App_screenshot.png" alt="App Screenshot" width="300px">
+<p align="center">
+  <img src="GitVisuals/App_screenshot.png" alt="App Screenshot" width="300px">
+</p>
 
 ## Tech Stack
 

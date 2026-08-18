@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="GitVisuals/app_logo.webp" alt="Compose Quadrant App" width="30%">
-
 # Quadrant App
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
@@ -24,7 +22,9 @@ This is a practice project from the Google Android Basics with Compose course. T
 
 ## Screenshot
 
-<img src="GitVisuals/App_screenshot.png" alt="App in light mode" width="300px">
+<div align="center">
+  <img src="GitVisuals/App_screenshot.png" alt="App Screenshot" width="300px">
+</div>
 
 ## Tech Stack
 

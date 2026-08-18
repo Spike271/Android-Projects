@@ -1,15 +1,17 @@
-# Greeting Card App
+<div align="center">
 
-Greeting Card App is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to create a visually appealing greeting card using images and text.
-
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
+  # Greeting Card App
+  
+  ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
+  ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+  ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
+  ![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
+  
+</div>
 
 ## About the Project
 
-This project serves as a practical implementation of Jetpack Compose `Box`, `Image`, and `Text` components. It displays a birthday message with a background image, showcasing how to layer UI elements and use resources in Compose.
+Greeting Card App is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to create a visually appealing greeting card using images and text.
 
 ## Key Features
 
@@ -19,7 +21,9 @@ This project serves as a practical implementation of Jetpack Compose `Box`, `Ima
 
 ## Screenshot
 
-<td align="center"><img src="GitVisuals/App_screenshot.png" width="320" alt="Light mode"></td>
+<p align="center">
+  <img src="GitVisuals/App_screenshot.png" width="320" alt="Greeting Card Screenshot">
+</p>
 
 ## Tech Stack
 

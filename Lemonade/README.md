@@ -1,15 +1,17 @@
-# Lemonade App
+<div align="center">
 
-Lemonade App is a fun, interactive Android application built with Jetpack Compose and Material Design 3. It guides users through the simple process of making lemonade: picking a lemon, squeezing it multiple times, drinking the lemonade, and restarting.
+# Lemonade App
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
 
+</div>
+
 ## About the Project
 
-This project demonstrates the use of Jetpack Compose for UI development, including state management (`remember`, `mutableStateOf`), handling user interactions, and implementing a custom Material 3 theme.
+Lemonade App is a fun, interactive Android application built with Jetpack Compose and Material Design 3. It guides users through the simple process of making lemonade: picking a lemon, squeezing it multiple times, drinking the lemonade, and restarting.
 
 ## Key Features
 
@@ -19,11 +21,14 @@ This project demonstrates the use of Jetpack Compose for UI development, includi
 
 ## Screenshots
 
+<p align="center">
 
-<td align="center"><img src="GitVisuals/App_screenshot_01.png" width="250" alt="Light mode"></td>
-<td align="center"><img src="GitVisuals/App_screenshot_02.png" width="250" alt="Light mode"></td>
-<td align="center"><img src="GitVisuals/App_screenshot_03.png" width="250" alt="Light mode"></td>
-<td align="center"><img src="GitVisuals/App_screenshot_04.png" width="250" alt="Light mode"></td>
+  <img src="GitVisuals/App_screenshot_01.png" width="250" alt="Lemon Tree">
+  <img src="GitVisuals/App_screenshot_02.png" width="250" alt="Lemon">
+  <img src="GitVisuals/App_screenshot_03.png" width="250" alt="Lemonade">
+  <img src="GitVisuals/App_screenshot_04.png" width="250" alt="Empty Glass">
+
+</p>
 
 ## Tech Stack
 

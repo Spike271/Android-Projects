@@ -1,15 +1,17 @@
-# Article App
+<div align="center">
 
-Article is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to implement a background image and follows modern Android development practices.
+# Article App
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 ![Material 3](https://img.shields.io/badge/Material%203-7D5260?style=for-the-badge&logo=materialdesign&logoColor=white)
 
+</div>
+
 ## About the Project
 
-This project serves as a practical implementation of Jetpack Compose and Material Design 3. It focuses on clean UI implementation and efficient resource handling.
+Article is a simple Android application built with Jetpack Compose and Material Design 3. It demonstrates how to implement a background image and follows modern Android development practices.
 
 ## Key Features
 
@@ -24,8 +26,8 @@ This project serves as a practical implementation of Jetpack Compose and Materia
     <th align="center">Dark Mode</th>
   </tr>
   <tr>
-    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light mode"></td>
-    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark mode"></td>
+    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light Mode Screenshot"></td>
+    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark Mode Screenshot"></td>
   </tr>
 </table>
 
@@ -42,7 +44,7 @@ This project serves as a practical implementation of Jetpack Compose and Materia
 ```text
 app/src/main/java/com/example/article/
 ├── ui/theme/       # Material 3 Theme configuration (Color, Type, Shape)
-└── MainActivity.kt 
+└── MainActivity.kt
 ```
 
 ## License

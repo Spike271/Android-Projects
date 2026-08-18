@@ -21,7 +21,9 @@ This is a simple **Task Manager** completion screen app that displays a "Task Co
 
 ## Screenshots
 
-<img src="GitVisuals/App_screenshot.png" alt="App ScreenShot" width="300px">
+<p align="center">
+  <img src="GitVisuals/App_screenshot.png" alt="App ScreenShot" width="300px">
+</p>
 
 ## Tech Stack
 

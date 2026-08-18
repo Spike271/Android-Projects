@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="GitVisuals/app_logo.webp" alt="Affirmations App" width="30%">
+<img src="GitVisuals/app_logo.webp" alt="Affirmations App" width="20%">
 
 # Affirmations App
 
@@ -30,8 +30,8 @@ The application demonstrates how to handle data lists efficiently and display th
     <th align="center">Dark Mode</th>
   </tr>
   <tr>
-    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light mode"></td>
-    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark mode"></td>
+    <td align="center"><img src="GitVisuals/app_light_mode.png" width="320" alt="Light mode Screenshot"></td>
+    <td align="center"><img src="GitVisuals/app_dark_mode.png" width="320" alt="Dark mode Screenshot"></td>
   </tr>
 </table>
 
@@ -50,7 +50,7 @@ app/src/main/java/com/example/affirmations/
 ├── data/           # Data source and repositories
 ├── model/          # Data classes and models
 ├── ui/theme/       # Material 3 Theme configuration (Color, Type, Shape)
-└── MainActivity.kt 
+└── MainActivity.kt
 ```
 
 ## License

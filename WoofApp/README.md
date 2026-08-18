@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="GitVisuals/app_logo.webp" alt="Woof App" width="30%">
+<img src="GitVisuals/app_logo.webp" alt="Woof App" width="20%">
 
 # Woof App
 
