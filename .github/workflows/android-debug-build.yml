@@ -1,0 +1,83 @@
+name: Android Debug Build
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "**/*.md"
+      - "**/GitVisuals/**"
+      - "**/LICENSE"
+      - "**/ASSETS_LICENSE.txt"
+  pull_request:
+    branches: [main]
+    paths-ignore:
+      - "**/*.md"
+      - "**/GitVisuals/**"
+      - "**/LICENSE"
+      - "**/ASSETS_LICENSE.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    name: Discover Android Projects
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      projects: ${{ steps.find.outputs.projects }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Find Gradle projects
+        id: find
+        run: |
+          projects=$(find . -mindepth 2 -maxdepth 2 -name gradlew -printf '%h\n' | sed 's|^\./||' | sort | jq -R -s -c 'split("\n")[:-1]')
+          echo "Discovered projects: $projects"
+          echo "projects=$projects" >> "$GITHUB_OUTPUT"
+
+  build:
+    name: Build (${{ matrix.project }})
+    needs: discover
+    if: needs.discover.outputs.projects != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        project: ${{ fromJson(needs.discover.outputs.projects) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up JDK 21 LTS
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          cache-provider: basic
+          cache-read-only: ${{ github.ref != 'refs/heads/main' || matrix.project != fromJson(needs.discover.outputs.projects)[0] }}
+
+      - name: Build Debug APK
+        working-directory: ${{ matrix.project }}
+        run: |
+          chmod +x gradlew
+          ./gradlew assembleDebug --stacktrace --no-daemon
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.project }}-debug-apk
+          path: ${{ matrix.project }}/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 7

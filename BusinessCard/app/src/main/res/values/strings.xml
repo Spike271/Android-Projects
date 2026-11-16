@@ -1,0 +1,8 @@
+<resources>
+	<string name="app_name">Business Card</string>
+	<string name="name">Mayank Sabnani</string>
+	<string name="desc">Android Developer</string>
+	<string name="email">sabnanimayank091@gmail.com</string>
+	<string name="linkdin_id">in/mayank-sabnani/</string>
+	<string name="phone_number">+91 8005021647</string>
+</resources>
